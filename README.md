@@ -37,7 +37,8 @@ Installation
 Bash
 
 
-git clone [https://github.com/YOUR_USERNAME/plds-f-lora-llm.git](https://github.com/YOUR_USERNAME/plds-f-lora-llm.git)
+git clone https://github.com/yana-shlyakhova/plds-f-lora-11m.git
+
 cd plds-f-lora-llm
 pip install -e .
 Running PLDS Inference Controller
