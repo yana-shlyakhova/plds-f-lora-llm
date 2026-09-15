@@ -85,12 +85,17 @@ f_lora_layer = DynamicFLoRALayer(
 x = torch.randn(1, 128, in_features)
 output = f_lora_layer(x)
 print(f"Output shape: {output.shape}")
-Benchmarks & EvaluationMethodGSM8K Pass@1High-Freq Component PruningBaseline Llama-2-7B76.4%0%PLDS (Ours)79.1% (+2.7%)-Dynamic F-LoRA (Ours)78.8%75.0% – 85.0%
-Citation
-If you use this work in your research, please cite:
+
+## Benchmarks & Evaluation
+
+| Method | GSM8K Pass@1 | High-Freq Component Pruning |
+| :--- | :---: | :---: |
+| Baseline Llama-2-7B | 76.4% | 0% |
+| PLDS (Ours) | **79.1% (+2.7%)** | - |
+| Dynamic F-LoRA (Ours) | 78.8% | 75.0% – 85.0% |
 
 ## Citation
-
+If you use this work in your research, please cite the corresponding publication (details available at [Preprints.org](https://preprints.org)).
 
 @article{shlyakhova2026plds,
   title={Phase-Locked Dynamic Sampling and Frequency-Domain Adaptation: Attractor-Guided Inference and Spectral Sparsity in LLMs},
