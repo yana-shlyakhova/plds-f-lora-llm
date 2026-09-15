@@ -89,7 +89,7 @@ Benchmarks & EvaluationMethodGSM8K Pass@1High-Freq Component PruningBaseline Lla
 Citation
 If you use this work in your research, please cite:
 
-Фрагмент коду
+## Citation
 
 
 @article{shlyakhova2026plds,
