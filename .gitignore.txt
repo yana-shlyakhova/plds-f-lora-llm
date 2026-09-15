@@ -1,0 +1,25 @@
+# Python / PyTorch artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Model checkpoints & large binary weights
+*.pt
+*.bin
+*.pth
+*.onnx
+
+# IDEs & Editors
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Distribution / Build
+build/
+dist/
+*.egg-info/
