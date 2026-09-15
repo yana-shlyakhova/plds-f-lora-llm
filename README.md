@@ -37,10 +37,10 @@ Installation
 Bash
 
 
-git clone https://github.com/yana-shlyakhova/plds-f-lora-11m.git
-
+git clone https://github.com/yana-shlyakhova/plds-f-lora-llm.git
 cd plds-f-lora-llm
 pip install -e .
+
 Running PLDS Inference Controller
 To run dynamic attractor-guided decoding on a language model:
 
