@@ -14,6 +14,12 @@ Official PyTorch implementation of the research paper:
 
 ## Overview
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22800830.svg)](https://doi.org/10.5281/zenodo.22800830)
+
+
+# plds-f-lora-llm
+
+
 This repository provides code for two novel techniques optimizing Large Language Model (LLM) inference and parameter-efficient fine-tuning:
 
 1. **Phase-Locked Dynamic Sampling (PLDS):** Leverages non-linear dynamics (Rössler Attractor) to dynamically adjust decoding parameters (temperature, top-p) based on hidden trajectory phase state, achieving **+2.7% Pass@1 on GSM8K** (79.1% total accuracy).
