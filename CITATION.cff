@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+
+message: "If you use this software or research, please cite it as below."
+
+authors:
+
+  - family-names: "Shlyakhova"
+
+    given-names: "Yana"
+
+    orcid: "https://orcid.org/0009-0004-7915-5853"
+
+title: "plds-f-lora-llm: Phase-Locked Dynamic Sampling & Dynamic F-LoRA"
+
+version: 1.0.0-poc
+
+date-released: 2026-09-16
+
+url: "https://github.com/yana-shlyakhova/plds-f-lora-llm"
+
+preferred-citation:
+
+  type: article
+
+  authors:
+
+    - family-names: "Shlyakhova"
+
+      given-names: "Yana"
+
+      orcid: "https://orcid.org/0009-0004-7915-5853"
+
+  title: "Phase-Locked Dynamic Sampling and Frequency-Domain Adaptation: Attractor-Guided Inference and Spectral Sparsity in LLMs"
+
+  journal: "Preprints.org"
+
+  year: 2026
